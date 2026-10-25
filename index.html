@@ -4,15 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="responsive.css">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Eleanor Scott - Senior Product Designer</title>
 </head>
 <body>
+
+    <div class="header-bg-layers">
+        <img src="images/BG.svg" alt="BG Base Wave" class="bg-layer bg-layer-base">
+        <img src="images/Vector4.svg" alt="Vector 4" class="bg-layer bg-layer-4">
+        <img src="images/Vector3.svg" alt="Vector 3" class="bg-layer bg-layer-3">
+        <img src="images/Vector2.svg" alt="Vector 2" class="bg-layer bg-layer-2">
+        <img src="images/Vector1.svg" alt="Vector 1" class="bg-layer bg-layer-1">
+        <img src="images/Vector.svg" alt="Vector" class="bg-layer bg-layer-0">
+        <div class="watermark-product-designer">Product<br>Designer</div>
+    </div>
 
     <header>
         <div class="container">
             <nav class="navbar">
                 <div class="logo">
-                    <img src="images/E.svg" alt="logoE">
+                    <img src="images/E.svg" alt="Eleanor Scott" width="20" height="20" loading="lazy">
                 </div>
 
                 <ul class="nav-menu">
@@ -35,7 +49,7 @@
     <main class="main-content">
         <div class="container">
             <div class="image-main-content">
-                <img src="images/avartar.svg" alt="Avartar">
+                <img src="images/avartar.svg" alt="Avartar" width="130" height="130" loading="eager">
             </div>
 
             <div class="address-main-content">
@@ -55,12 +69,12 @@
 
             <div class="logo-main-content">
                 <h3 class="logo-main-title">MY CLIENTS OVER TO THE WORLD</h3>
-                <div class="logo-main-header">
-                    <img src="images/drips.svg" alt="Drips">
-                    <img src="images/brage.svg" alt="Brage">
-                    <img src="images/gusto.svg" alt="Gusto">
-                    <img src="images/stripe.svg" alt="Stripe">
-                </div>
+                    <div class="logo-main-header">
+                        <img src="images/drips.svg" alt="Drips" width="82" height="24" loading="lazy">
+                        <img src="images/brage.svg" alt="Brage" width="82" height="24" loading="lazy">
+                        <img src="images/gusto.svg" alt="Gusto" width="82" height="24" loading="lazy">
+                        <img src="images/stripe.svg" alt="Stripe" width="82" height="24" loading="lazy">
+                    </div>
             </div>
 
             <div class="column-main-content">
@@ -81,7 +95,11 @@
         </div>
     </main>
 
-    <section class="section-lates-case">
+    <div class="layers-wave">
+        <img src="images/Wave1.svg" alt="BG Base Wave" class="layer-wave-first">
+    </div>
+
+    <section class="section-lates-case" id="works">
         <div class="container">
             <div class="lates-case-study">
                 <h2 class="title-lates-case">Latest Case Study</h2>
@@ -89,37 +107,54 @@
 
             <div class="box-lates-case">
                 <div class="first-box-lates">
-                    <div class="small-title-box">
-                        <h4 class="title-box-frist">Website</h4>
-                        <h4 class="title-box-frist">lms</h4>
-                        <h4 class="title-box-frist">Mobile App</h4>
+                    <div class="content-box-lates">
+                        <div class="icon-case-study">
+                            <img src="images/Website.svg" alt="E-Tutor Icon">
+                        </div>
+
+                        <div class="small-title-box">
+                            <h4 class="title-box-frist">WEBSITE / LMS / MOBILE APP</h4>
+                        </div>
+
+                        <div class="big-title-box">
+                            <h3 class="title-box-lates">E-Tutor - Education Learning Management System</h3>
+                            <p class="text-box-lates">E-Tutor is an education, courses, and online (LMS) learning management system Figma template designed for people who want to start teaching online, create an LMS etc.</p>
+                        </div>
+
+                        <div class="button-common">
+                            <a href="#e-tutor" class="button-comment-primary">View Case Study</a>
+                            <img src="images/Arrow_right.svg" alt="View Latest Case">
+                        </div>
                     </div>
 
-                    <div class="big-title-box">
-                        <h3 class="title-box-lates">E-Tutor - Education Learning Management System</h3>
-                        <p class="text-box-lates">E-Tutor is an education, courses, and online (LMS) learning management system Figma template designed for people who want to start teaching online, create an LMS etc. </p>
-                    </div>
-
-                    <div class="button-common">
-                        <a href="View" class="button-comment-primary">View case study</a>
-                        <img src="images/Arrow_right.svg" alt="View Lates Case">
+                    <div class="image-box-lates">
+                        <img src="images/E-Tutor.svg" alt="E-Tutor - Education Learning Management System">
                     </div>
                 </div>
 
                 <div class="second-box-lates">
-                    <div class="small-title-box">
-                        <h4 class="title-box-frist">Dashboard</h4>
-                        <h4 class="title-box-frist">Digital Product</h4>
+                    <div class="content-box-lates">
+                        <div class="icon-case-study">
+                            <img src="images/Dashboard.svg" alt="Raple Icon">
+                        </div>
+
+                        <div class="small-title-box">
+                            <h4 class="title-box-frist">DASHBOARD / DIGITAL PRODUCT</h4>
+                        </div>
+
+                        <div class="big-title-box">
+                            <h3 class="title-box-lates">Raple - Analytics Admin Dashboard UI Kit</h3>
+                            <p class="text-box-lates">Jobpilot is a modern high-quality and well-organized job portal Laravel Script designed to connect people who are looking for suitable Jobs & Candidates.</p>
+                        </div>
+
+                        <div class="button-common">
+                            <a href="#raple" class="button-comment-primary">View Case Study</a>
+                            <img src="images/Arrow_right.svg" alt="View Latest Case">
+                        </div>
                     </div>
 
-                    <div class="big-title-box">
-                        <h3 class="title-box-lates">Raple - Analytics Admin Dashboard UI Kit</h3>
-                        <p class="text-box-lates">Jobpilot is a modern high-quality and well-organized job portal Laravel Script designed to connect people who are looking for suitable Jobs & Candidates. </p>
-                    </div>
-
-                    <div class="button-common">
-                        <a href="View" class="button-comment-primary">View case study</a>
-                        <img src="images/Arrow_right.svg" alt="View Lates Case">
+                    <div class="image-box-lates">
+                        <img src="images/Raple.svg" alt="Raple - Analytics Admin Dashboard UI Kit">
                     </div>
                 </div>             
             </div>
@@ -132,6 +167,10 @@
 
         </div>
     </section>
+
+    <div class="layers-wave">
+        <img src="images/Wave2.svg" alt="BG Base Wave" class="layer-wave-first">
+    </div>
 
     <section class="section-comment">
         <div class="container">
@@ -164,6 +203,10 @@
         </div>
     </section>
 
+    <div class="layers-wave">
+        <img src="images/Wave3.svg" alt="BG Base Wave" class="layer-wave-first">
+    </div>
+
     <section class="section-pricing-plans">
         <div class="container">
 
@@ -195,7 +238,7 @@
                         </ul>
 
                         <div class="button-common-second">
-                            <a href="Work Togehter" class="text-button-common">let’s work together</a href="Work Togehter">
+                            <a href="Work Togehter" class="text-button-common">let’s work together</a>
                             <img src="images/Arrow_right.svg" alt="Arrow Right">
                         </div>
                     </div>
@@ -221,7 +264,7 @@
                         </ul>
 
                         <div class="button-common-second">
-                            <a href="Work Togehter" class="text-button-common">let’s work together</a href="Work Togehter">
+                            <a href="Work Togehter" class="text-button-common">let’s work together</a>
                             <img src="images/Arrow_right.svg" alt="Arrow Right">
                         </div>
                     </div>
@@ -247,7 +290,7 @@
                         </ul>
 
                         <div class="button-common-second">
-                            <a href="Work Togehter" class="text-button-common">let’s work together</a href="Work Togehter">
+                            <a href="Work Togehter" class="text-button-common">let’s work together</a>
                             <img src="images/Arrow_right.svg" alt="Arrow Right">
                         </div>
                     </div>
@@ -257,6 +300,10 @@
 
         </div>
     </section>
+
+    <div class="layers-wave">
+        <img src="images/Wave2.svg" alt="BG Base Wave" class="layer-wave-first">
+    </div>
     
 </body>
 </html>
