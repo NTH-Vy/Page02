@@ -68,7 +68,7 @@
   }
 
   .description-column-left {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 
@@ -96,7 +96,7 @@
   display: block;
   width: 20px;
   height: 2px;
-  background-color: #111827;
+  background-color: #121314;
   border-radius: 2px;
   transition: transform 0.3s ease, opacity 0.3s ease;
 }
@@ -222,9 +222,9 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .box-premium-pricing {
+  /* .box-premium-pricing {
     grid-column: 1 / -1;
-  }
+  } */
 
   .footer-column {
     grid-template-columns: 1fr;
@@ -296,7 +296,7 @@
     width: 100%;
     padding: 18px 4px;
     font-size: 18px;
-    color: #111827;   
+    color: #121314;   
     font-weight: 600;
   }
 
@@ -575,7 +575,7 @@
   .box-basic-pricing,
   .box-standard-pricing,
   .box-premium-pricing {
-    padding: 28px 24px;
+    padding: 30px 50px 0 40px;
   }
 
   .number-basic-pricing,
@@ -720,6 +720,7 @@
   .address-main {
     font-size: 11px;
     letter-spacing: 1.2px;
+    color: #121314;
   }
 
   .logo-main-header {
@@ -774,7 +775,7 @@
   .box-basic-pricing,
   .box-standard-pricing,
   .box-premium-pricing {
-    padding: 24px 20px;
+    padding: 30px 50px 0 30px;
   }
 
   .title-basic-pricing,
@@ -1032,11 +1033,11 @@
   }
 
   .title-column-left {
-    font-size: 24px;
+    font-size: 25px;
   }
 
   .description-column-left {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.6;
   }
 

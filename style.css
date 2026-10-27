@@ -7,7 +7,7 @@
 body {
   font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
   background-color: #ffffff;
-  color: #111827;
+  color: #121314;
   line-height: 1.6;
   overflow-x: hidden;
   position: relative;
@@ -101,7 +101,7 @@ a {
 
 .container {
   overflow: hidden;
-  max-width: 1200px;
+  max-width: 1320px;
   margin: 0 auto;
   padding: 0 40px;
   position: relative;
@@ -135,11 +135,12 @@ header {
   height: 44px;
   font-weight: 800;
   font-size: 20px;
-  color: #111827;
+  color: #121314;
   text-decoration: none;
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
   transition: transform 0.2s ease;
   flex-shrink: 0;
+  cursor: pointer;
 }
 
 .logo img {
@@ -180,22 +181,63 @@ header {
   text-decoration: none;
   cursor: pointer;
   transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
-  flex-shrink: 0;
 }
 
 .button-email img {
-  width: 17px;       
-  height: 17px;
+  width: 24px;       
+  height: 24px;
 }
 
 .button-email-text {
-  font-style: normal;
+  font-style: 'Work Sans', sans-serif;
   color: #ffffff;     
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
   text-decoration: none;
   white-space: nowrap;
 }
+
+.button-common-header {
+  height: 56px;
+  position: relative;
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 0 32px 0 32px;
+  border: 1.5px solid #00BBFF;
+  border-radius: 56px;
+  color: #00BBFF;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 auto 58px auto;
+  cursor: pointer;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  transition: all 0.25s ease;
+}
+
+.button-common-header:hover {
+  background-color: #00BBFF;
+  color: #ffffff;
+}
+
+.button-common-header:hover img {
+  filter: brightness(0) invert(1);
+}
+
+.button-common-header img {
+  width: 24px;
+  height: 24px;
+  transition: filter 0.2s ease;
+}
+
+/* .button-email:hover {
+  color: #00BBFF;
+  background-color: #ffffff;
+} */
 
 /* ==========================================================================
    MAIN CONTENT
@@ -240,7 +282,7 @@ header {
   justify-content: center;
   gap: 7px;
   margin-bottom: 12px;
-  color: #9AA1A6;
+  color: #FFFFFF;
 }
 
 .address-main-content img {
@@ -287,21 +329,60 @@ header {
   margin: 0 auto;
 }
 
-.button-common {
+.button-common-header {
+  height: 56px;
   position: relative;
   z-index: 2;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
-  padding: 12px 28px;
+  padding: 0 32px 0 32px;
   border: 1.5px solid #00BBFF;
   border-radius: 56px;
   color: #00BBFF;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   margin: 0 auto 58px auto;
+  cursor: pointer;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  transition: all 0.25s ease;
+}
+
+.button-common-header:hover {
+  background-color: #00BBFF;
+  color: #ffffff;
+}
+
+.button-common-header:hover img {
+  filter: brightness(0) invert(1);
+}
+
+.button-common-header img {
+  width: 24px;
+  height: 24px;
+  transition: filter 0.2s ease;
+}
+
+.button-common {
+  width: 100%;
+  height: 56px;
+  position: relative;
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 0 32px 0 32px;
+  border: 1.5px solid #00BBFF;
+  border-radius: 56px;
+  color: #00BBFF;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  margin: -10px auto 45px auto;
   cursor: pointer;
   backdrop-filter: blur(8px);
   transition: all 0.25s ease;
@@ -326,7 +407,7 @@ header {
   color: inherit;
   text-decoration: none;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .logo-main-content {
@@ -343,7 +424,7 @@ header {
 }
 
 .logo-main-title {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
   letter-spacing: 2.2px;
   color: #7B848B;
@@ -378,10 +459,10 @@ header {
 }
 
 .main-left-title {
-  font-size: 45px;
+  font-size: 56px;
   font-weight: 800;
   line-height: 1.15;
-  color: #111827;
+  color: #121314;
   letter-spacing: -1.2px;
 }
 
@@ -390,14 +471,14 @@ header {
 }
 
 .main-right-title {
-  font-size: 20px;
+  font-size: 23px;
   font-weight: 700;
-  color: #111827;
+  color: #121314;
   display: inline;
 }
 
 .main-right-title-google {
-  font-size: 20px;
+  font-size: 23px;
   font-weight: 700;
   color: #00BBFF;
   display: inline;
@@ -405,17 +486,18 @@ header {
 }
 
 .main-right-text {
-  color: #5E6971;
-  font-size: 15px;
+  color: #485057;
+  font-size: 20px;
   line-height: 1.7;
   margin: 18px 0 24px 0;
 }
 
 .main-right-sign {
   font-family: 'Dancing Script', cursive;
-  font-size: 42px;
+  font-size: 48px;
+  line-height: 56px;
   font-weight: 500;
-  color: #111827;
+  color: #121314;
   letter-spacing: 0.5px;
 }
 
@@ -433,9 +515,9 @@ header {
 }
 
 .title-lates-case {
-  font-size: 45px;
+  font-size: 56px;
   font-weight: 800;
-  color: #111827;
+  color: #121314;
   letter-spacing: -0.6px;
 }
 
@@ -487,11 +569,11 @@ header {
 }
 
 .title-box-frist {
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1.6px;
-  color: #7B848B;
+  color: #5E6971;
   margin: 0;
   padding: 0;
 }
@@ -501,7 +583,7 @@ header {
 }
 
 .title-box-lates {
-  font-size: 30px;
+  font-size: 36px;
   font-weight: 800;
   color: #121314;
   margin-bottom: 14px;
@@ -510,7 +592,7 @@ header {
 }
 
 .text-box-lates {
-  color: #353A3E;
+  color: #121314;
   font-size: 16px;
   line-height: 1.65;
   margin: 0;
@@ -554,7 +636,7 @@ header {
   color: inherit;
   text-decoration: none;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .image-box-lates {
@@ -654,7 +736,7 @@ header {
 }
 
 .text-of-comment {
-  font-size: 22.5px;
+  font-size: 24px;
   line-height: 1.65;
   color: #121314;
   font-weight: 500;
@@ -672,7 +754,7 @@ header {
 }
 
 .author-name {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
   color: #121314;
@@ -730,9 +812,9 @@ header {
 }
 
 .title-pricing-plans {
-  font-size: 45px;
+  font-size: 56px;
   font-weight: 800;
-  color: #111827;
+  color: #121314;
   margin-bottom: 12px;
   letter-spacing: -0.5px;
 }
@@ -750,16 +832,13 @@ header {
   text-align: left;
 }
 
-.box-basic-pricing,
-.box-standard-pricing,
-.box-premium-pricing {
+.box-pricing {
   background-color: #ffffff;
-  border-radius: 20px;
+  border-radius: 16px;
   padding: 38px 40px 0 40px;
   border: 1px solid #E2E8F0;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.03);
-  display: grid;
-  grid-template-columns: 1fr;      
+  display: grid;      
   grid-auto-rows: min-content;
   justify-content: stretch;          
   align-content: space-between;    
@@ -768,64 +847,49 @@ header {
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
-.box-standard-pricing {
+.box-pricing {
   position: relative;
 }
 
-.box-basic-pricing:hover,
-.box-standard-pricing:hover,
-.box-premium-pricing:hover {
-  border: 2px solid #00BBFF;;
+.box-pricing:hover {
+  border: 2px solid #00BBFF;
+  cursor: pointer;
 }
 
-.box-basic-pricing:hover .number-basic-pricing,
-.box-standard-pricing:hover .number-standard-pricing,
-.box-premium-pricing:hover .number-premium-pricing {
+.box-pricing:hover .number-pricing {
   color: #00BBFF;
 }
 
-.box-basic-pricing:hover .button-common,
-.box-standard-pricing:hover .button-common,
-.box-premium-pricing:hover .button-common {
+.box-pricing:hover .button-common{
   background-color: #00BBFF;
   color: #ffffff;                 
 }
 
-.box-basic-pricing:hover .button-common img,
-.box-standard-pricing:hover .button-common img,
-.box-premium-pricing:hover .button-common img {
+.box-pricing:hover .button-common img {
   filter: brightness(0) invert(1);
 }
 
-.box-basic-pricing:hover .diliver-pricing-plans,
-.box-standard-pricing:hover .diliver-pricing-plans,
-.box-premium-pricing:hover .diliver-pricing-plans {
+.box-pricing:hover .diliver-plans {
   background-color: #00BBFF; 
 }
 
-.title-basic-pricing,
-.title-standard-pricing,
-.title-premium-pricing {
-  font-size: 22px;
-  font-weight: 700;
-  color: #111827;
+.title-pricing {
+  font-size: 24px;
+  font-weight: 800;
+  color: #121314;
   margin-bottom: 6px;
 }
 
-.text-basic-pricing,
-.text-standard-pricing,
-.text-premium-pricing {
+.text-pricing {
   color: #5E6971;
   font-size: 15px;
   font-weight: 500;
   margin-bottom: 18px;
 }
 
-.number-basic-pricing,
-.number-standard-pricing,
-.number-premium-pricing {
+.number-pricing {
   display: block;
-  font-size: 40px;
+  font-size: 45px;
   font-weight: 800;
   color: #DFE3E5;
   font-variant-numeric: tabular-nums;
@@ -841,9 +905,7 @@ header {
 
 ul.description-pricing-plans {
   list-style: none;
-  margin-bottom: 32px;
-  display: grid;
-  gap: 12px;
+  margin-bottom: 30px;
   padding: 0;
 }
 
@@ -855,6 +917,7 @@ dl.display-description-pricing {
   display: flex;
   align-items: center;
   gap: 10px;
+  margin-bottom: 13px;
 }
 
 .display-description-pricing::before,
@@ -878,6 +941,7 @@ dl.hidden-description-pricing {
   display: flex;
   align-items: center;
   gap: 10px;
+  margin-bottom: 13px;
 }
 
 .hidden-description-pricing::before,
@@ -902,6 +966,44 @@ dl.hidden-description-pricing::before {
 /* ==========================================================================
    fOOTER
    ========================================================================== */
+.button-common-footer {
+  width: 230px;
+  height: 56px;
+  position: relative;
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 0 32px 0 32px;
+  border: 1.5px solid #00BBFF;
+  border-radius: 56px;
+  color: #00BBFF;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 auto 58px auto;
+  cursor: pointer;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  transition: all 0.25s ease;
+}
+
+.button-common-footer:hover {
+  background-color: #00BBFF;
+  color: #ffffff;
+}
+
+.button-common-footer:hover img {
+  filter: brightness(0) invert(1);
+}
+
+.button-common-footer img {
+  width: 24px;
+  height: 24px;
+  transition: filter 0.2s ease;
+}
+
 .footer {
   background-color: #ffffff;
   padding: 20px 0 0 0;
@@ -963,6 +1065,34 @@ dl.hidden-description-pricing::before {
   font-weight: 800;
 }
 
+.box-overlay {
+  position: absolute;
+  top: 70%;
+  left: 60%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  text-align: center;
+  justify-content: center;
+}
+
+.overlay img {
+  width: 36px;
+  height: 36px;
+}
+
+.title-overlay {
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
+.description-overlay {
+  font-size: 20px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
 /* ==========================================================================
    fOOTER MENU
    ========================================================================== */
@@ -993,6 +1123,7 @@ dl.hidden-description-pricing::before {
   font-size: 20px;
   text-decoration: none;
   flex-shrink: 0;
+  cursor: pointer;
 }
 
 .logo-footer img {
