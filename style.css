@@ -69,9 +69,10 @@ body {
 
 .watermark-product-designer {
   position: absolute;
-  bottom: 45px;
+  /* bottom: 45px; */
+  top: 30vw;
   left: 4vw;
-  font-size: 110px;
+  font-size: 7rem;
   font-weight: 800;
   line-height: 0.95;
   color: rgba(255, 255, 255, 0.04);
@@ -106,7 +107,6 @@ a {
   position: relative;
   z-index: 2;
 }
-
 
 /* ==========================================================================
    HEADER STYLE
@@ -240,7 +240,7 @@ header {
   justify-content: center;
   gap: 7px;
   margin-bottom: 12px;
-  color: #8E9BA7;
+  color: #9AA1A6;
 }
 
 .address-main-content img {
@@ -264,10 +264,17 @@ header {
   text-align: center;
 }
 
+.background {
+  position: absolute;
+  inset: 0;
+  display: flex;
+}
+
 .main-header-title {
   font-size: 46px;
   font-weight: 800;
   color: #ffffff;
+  mix-blend-mode: difference;
   margin-bottom: 12px;
   letter-spacing: -0.5px;
 }
@@ -781,8 +788,7 @@ header {
 .box-standard-pricing:hover .button-common,
 .box-premium-pricing:hover .button-common {
   background-color: #00BBFF;
-  color: #ffffff;             
-  border-color: #00BBFF;     
+  color: #ffffff;                 
 }
 
 .box-basic-pricing:hover .button-common img,

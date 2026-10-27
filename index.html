@@ -11,7 +11,7 @@
         <title>Eleanor Scott - Senior Product Designer</title>
     </head>
     <body>
-
+        <script src="script.js" defer></script>
         <div class="header-bg-layers">
             <img src="images/BG.svg" alt="Background Base Wave" class="bg-layer bg-layer-base" width="1920" height="890" loading="eager">
             <img src="images/Vector4.svg" alt="Vector Wave" class="bg-layer bg-layer-4" width="1919" height="489" loading="eager">
@@ -29,7 +29,13 @@
                         <img src="images/E.svg" alt="logo" width="20" height="20" loading="lazy">
                     </div>
 
-                    <ul class="nav-menu">
+                        <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="navMenu">
+                            <span class="hamburger-line"></span>
+                            <span class="hamburger-line"></span>
+                            <span class="hamburger-line"></span>
+                        </button>
+
+                    <ul class="nav-menu" id="navMenu">
                         <li><a href="#" class="nav-link-active">Home</a></li>
                         <li><a href="#works" class="nav-link">Works</a></li>
                         <li><a href="#About" class="nav-link">About</a></li>
@@ -52,9 +58,14 @@
                 </figure>
 
                 <address class="address-main-content">
-                    <img src="images/MapPinLine.svg" alt="Address" width="130" height="130" loading="eager">
+                    <img src="images/MapPinLine.svg" class="icon-gray" alt="Address" width="20" height="20" loading="eager">
                     <span class="address-main">Kyiv - 03148, Ukraine</span>
                 </address>
+
+                <div class="background">
+                    <div class="bg-white"></div>
+                    <div class="bg-gray"></div>
+                </div>
 
                 <div class="main-header-content">
                     <h1 class="main-header-title">Eleanor Scott</h1>
@@ -67,7 +78,7 @@
                 </div> -->
 
                 <a class="button-common" href="#">
-                    <img src="images/download.svg" alt="Download"  width="130" height="130" loading="eager">
+                    <img src="images/download.svg" alt="Download"  width="24" height="24" loading="eager">
                     <span class="button-common-primary">Download Resume</span>
                 </a>
 
@@ -404,7 +415,7 @@
                         </ul>
 
                         <div class="copyright">
-                            <a href="Eleanor_Scott" class="copyright-text">© 2022 Eleanor Scott.</a>
+                            <a href="#" class="copyright-text">© 2022 Eleanor Scott.</a>
                         </div>
                     </nav>
                 </div>
