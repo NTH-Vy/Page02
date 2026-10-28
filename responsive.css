@@ -688,24 +688,21 @@
     font-size: 14px;
   }
 
-  /* ==========================================================================
-     CONTACT CARD RESPONSIVE (Giữ nguyên ảnh SVG)
-     ========================================================================== */
   .contact-card-wrapper {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     background-image: url('images/Card.svg');
-    background-size: 100% 100%; /* Kéo giãn ảnh SVG vừa khít với nội dung */
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
     padding: 35px 20px;
-    min-height: 160px; /* Đảm bảo chiều cao tối thiểu */
+    min-height: 160px; 
   }
 
   .contact-card-bg {
-    display: none; /* Ẩn thẻ img gốc để dùng background-image */
+    display: none; 
   }
 
   .contact-card-content {
@@ -716,7 +713,7 @@
     height: auto;
     padding: 0;
     display: flex;
-    flex-direction: row; /* Giữ 2 cột như thiết kế */
+    flex-direction: row; 
     gap: 15px;
     align-items: center;
     justify-content: space-around;
@@ -735,7 +732,7 @@
 
   .description-overlay {
     font-size: 14px;
-    word-break: break-all; /* Chống tràn chữ */
+    word-break: break-all; 
   }
 }
 
@@ -753,7 +750,7 @@
 
   .header-bg-layers .bg-layer-base {
     left: 50%;
-    width: 980px;
+    width: 1000px;
     max-width: none;
     transform: translateX(-50%);
   }
