@@ -140,6 +140,10 @@
     letter-spacing: -1.5px;
   }
 
+  .comment-slider {
+    min-height: 190px;
+  }
+
   .navbar {
     gap: 16px;
   }
@@ -1177,9 +1181,6 @@
     font-size: 12px;
   }
 
-  /* ==========================================================================
-     CONTACT CARD RESPONSIVE (<= 480px)
-     ========================================================================== */
   .contact-card-wrapper {
     padding: 20px 6px;
     min-height: 110px;

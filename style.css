@@ -1017,18 +1017,21 @@ dl.hidden-description-pricing::before {
 }
 
 .footer-column-left {
+  max-width: 536px;
+  height: 332px;
   text-align: left;
 }
 
 .title-column-left {
-  font-size: 50px;
-  font-weight: 800;
-  line-height: 1.2;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 64px;
 }
 
 .description-column-left {
   font-size: 20px;
   color: #485057;
+  line-height: 28px;
   padding: 20px 0 20px 0;
 }
 
@@ -1065,10 +1068,6 @@ dl.hidden-description-pricing::before {
   font-size: 24px;
   font-weight: 800;
 }
-
-/* ==========================================================================
-   FOOTER CONTACT CARD
-   ========================================================================== */
 
 .contact-card-wrapper {
   position: relative;
@@ -1185,7 +1184,7 @@ dl.hidden-description-pricing::before {
 .nav-menu-footer .f-nav-link {
   text-decoration: none;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   color: #485057; 
   white-space: nowrap;
 }
@@ -1193,7 +1192,7 @@ dl.hidden-description-pricing::before {
 .nav-menu-footer .f-nav-link:hover,
 .f-nav-link-active {
   color: #121314;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .copyright-text {
