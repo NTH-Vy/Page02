@@ -15,8 +15,8 @@
   }
 
   .watermark-product-designer {
-    font-size: 85px;
-    top: 38vw;
+    font-size: 75px;
+    top: 44vw;
     left: 2vw;
   }
 
@@ -156,7 +156,7 @@
     max-width: 430px;
     height: auto;
     min-height: 0;
-    margin: 40px auto 52px;
+    margin: 36px auto 52px;
     padding: 24px 32px;
     /* padding-right: 36px;
     padding-left: 36px; */
@@ -440,7 +440,7 @@
     max-width: 385px;
     height: auto;
     min-height: 0;
-    margin: 10px auto 52px;
+    margin: auto auto 52px;
     padding: 24px 32px;
   }
 
@@ -756,7 +756,7 @@
 
   .header-bg-layers .bg-layer-base {
     left: 50%;
-    width: 1030px;
+    width: 1080px;
     max-width: none;
     transform: translateX(-50%);
   }
@@ -832,7 +832,7 @@
     max-width: 360px;
     height: auto;
     min-height: 0;
-    margin: -20px auto 48px;
+    margin: auto auto 80px;
     padding: 22px 28px;
   }
 
@@ -1212,7 +1212,7 @@
 
   .header-bg-layers .bg-layer-base {
     left: 50%;
-    width: 1000px;
+    width: 1080px;
     max-width: none;
     transform: translateX(-50%);
   }
@@ -1306,10 +1306,10 @@
 
   .logo-main-content {
     width: 100%;
-    max-width: 290px;
+    max-width: 300px;
     height: auto;
     min-height: 0;
-    margin: -10px auto 60px;
+    margin: 10px auto 70px;
     padding: 18px 20px;
   }
 

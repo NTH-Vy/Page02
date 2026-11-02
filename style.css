@@ -35,7 +35,8 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  /* width: 100%; */
+  max-width: 1700px;
   height: auto;
   display: block;
   pointer-events: none;
@@ -54,9 +55,9 @@ body {
 .watermark-product-designer {
   font-family: 'Work Sans', sans-serif;
   position: relative;
-  top: 32vw;
-  left: 3vw;
-  font-size: 102px;
+  top: 36.5vw;
+  left: 2vw;
+  font-size: 100px;
   font-weight: 800;
   line-height: 1;
   color: rgba(255, 255, 255, 0.04);
@@ -405,7 +406,7 @@ header {
   padding: 32px 48px;
   max-width: 524px;
   height: 134px;
-  margin: auto auto 70px auto;
+  margin: 25px auto 80px auto;
 }
 
 .logo-main-title {
@@ -1235,8 +1236,8 @@ dl.hidden-description-pricing::before {
   align-items: center;
   justify-content: flex-start;
   border-radius: 50%;
-  width: 34px;
-  height: 34px;
+  width: 56px;
+  height: 56px;
   font-weight: 800;
   font-size: 20px;
   text-decoration: none;
@@ -1249,8 +1250,8 @@ dl.hidden-description-pricing::before {
 }
 
 .logo-footer img {
-  width: 34px;
-  height: 34px;
+  width: 56px;
+  height: 56px;
 }
 
 .nav-menu-footer {
