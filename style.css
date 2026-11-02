@@ -8,7 +8,6 @@ body {
   font-family: 'Work Sans', sans-serif;
   background-color: #ffffff;
   color: #121314;
-  line-height: 1.6;
   overflow-x: hidden;
   position: relative;
 }
@@ -266,10 +265,16 @@ header {
   gap: 40px;
 }
 
+.header-content-center {
+  max-width: 648px;
+  height: 492px;
+  margin: 0 auto;
+}
+
 .image-main-content {
   position: relative;
-  z-index: 2;
-  margin: 30px auto 40px auto;
+  /* z-index: 2; */
+  margin: 30px auto 15px auto;
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -406,7 +411,8 @@ header {
   padding: 32px 48px;
   max-width: 524px;
   height: 134px;
-  margin: 25px auto 80px auto;
+  margin: auto;
+  transform: translateY(50%);
 }
 
 .logo-main-title {
@@ -420,6 +426,8 @@ header {
 }
 
 .logo-main-header {
+  max-width: 428px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -436,13 +444,13 @@ header {
 
 .column-main-content {
   position: relative;
-  z-index: 2;
+  /* z-index: 2; */
   display: grid;
   grid-template-columns: 1fr 1.3fr;
   gap: 70px;
   align-items: start;
   text-align: left;
-  padding: 20px 0 90px 0;
+  padding: 150px 0 90px 0;
 }
 
 .main-left-title {

@@ -60,10 +60,21 @@
     max-width: 480px;
     height: auto;
     min-height: 0;
-    margin: 15px auto 52px;
-    padding: 24px 32px;
+    /* margin: 15px auto 52px;
+    padding: 24px 32px; */
+    transform: translateY(0);
   }
 
+  .column-main-content {
+    position: relative;
+    /* z-index: 2; */
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    gap: 70px;
+    align-items: start;
+    text-align: left;
+    padding: 70px 0;
+  }
 }
 
 /* =========================
@@ -153,19 +164,20 @@
   }
 
   .logo-main-content {
-    max-width: 430px;
+    max-width: 450px;
     height: auto;
     min-height: 0;
-    margin: 36px auto 52px;
-    padding: 24px 32px;
+    transform: translateY(20px);
+    /* margin: 36px auto 52px;
+    padding: 24px 32px; */
     /* padding-right: 36px;
     padding-left: 36px; */
   }
 
   .logo-main-header img {
-    height: 30px;
+    height: 40px;
     width: auto;
-    max-width: 70px;
+    max-width: 80px;
     object-fit: contain;
     transition: opacity 0.2s ease, transform 0.2s ease;
   }
@@ -177,7 +189,7 @@
   .column-main-content {
     grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
     gap: clamp(36px, 5vw, 64px);
-    padding-bottom: 76px;
+    padding: 100px 0 50px 0;
   }
 
   .main-left-title {
@@ -437,10 +449,11 @@
   }
 
   .logo-main-content {
-    max-width: 385px;
+    max-width: 400px;
     height: auto;
     min-height: 0;
-    margin: auto auto 52px;
+    /* margin: auto auto 52px; */
+    transform: translateY(-90px);
     padding: 24px 32px;
   }
 
@@ -829,11 +842,12 @@
 
   .logo-main-content {
     width: 100%;
-    max-width: 360px;
+    max-width: 400px;
     height: auto;
     min-height: 0;
-    margin: auto auto 80px;
-    padding: 22px 28px;
+    /* margin: auto auto 80px; */
+    padding: 24px 32px;
+    transform: translateY(-160px);
   }
 
   .logo-main-title {
@@ -857,7 +871,8 @@
   .column-main-content {
     grid-template-columns: 1fr;
     gap: 20px;
-    padding: 0 0 56px;
+    padding: 0 0 50px;
+    transform: translateY(-50px);
     text-align: center;
   }
 
@@ -1306,11 +1321,12 @@
 
   .logo-main-content {
     width: 100%;
-    max-width: 300px;
+    max-width: 380px;
     height: auto;
     min-height: 0;
-    margin: 10px auto 70px;
-    padding: 18px 20px;
+    /* margin: 10px auto 70px; */
+    transform: translateY(-160px);
+    padding: 24px 32px;
   }
 
   .logo-main-title {
@@ -1332,13 +1348,13 @@
   }
 
   .logo-main-header img {
-    height: 24px;
+    height: 30px;
     max-width: 64px;
   }
 
   .column-main-content {
     gap: 22px;
-    padding: 0 0 52px;
+    transform: translateY(-50px);
   }
 
   .main-left-title {
